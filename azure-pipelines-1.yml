@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "Simulating Maven Build..."
+- script: echo "Simulating Artifact Publish..."
